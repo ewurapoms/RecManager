@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <script defer src="./app.js"></script>
+    <title>RecManager App</title>
+</head>
+<body>
+    <div class="overlay hidden">
+      <button class="btn-close" id="btn-close">X</button>
+    </div>
+
+    <form class="form">
+      <ul class="container">
+        <li>
+          <label for="roll-no">Enter Your Roll-No:</label><br />
+          <input
+            type="number"
+            placeholder="Enter roll-no."
+            id="roll-no"
+            name="roll-no"
+            required
+          />
+        </li>
+        <li>
+          <label for="student-name">Enter Your Name:</label><br />
+          <input
+            type="text"
+            placeholder="Enter name"
+            id="student-name"
+            name="student-name"
+            required
+          />
+        </li>
+        <li>
+          <label for="subject">Enter Your Course:</label><br />
+          <input
+            type="text"
+            placeholder="Enter course"
+            id="subject"
+            name="subject"
+            required
+          />
+        </li>
+        <select name="" id="store">
+          <option value="1">localStorage</option>
+          <option value="3">SessionStorage</option>
+         <!-- <option value="2">cookies</option>-->
+        </select>
+        <li class="button">
+          <button class="btn" >Submit</button>
+          <button class="submit-btn hide">Submit</button>
+        </li>
+      </ul>
+    </form>
+    <div class="main">
+      <div class="txt-container">
+        <div class="all-txt">
+          <!-- <div class="box">
+            <p class="txt-roll">20</p>
+            <p class="txt-name">Ewura</p>
+            <p class="txt-subject">Twi</p>
+            <p class="txt-storage">localStorage</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    </div>
+</body>
+</html>
