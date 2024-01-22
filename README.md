@@ -17,9 +17,11 @@ To access this project locally, do this:
 - git clone https://github.com/ewurapoms/RecManager.git
 - cd RecManager
 ## Demo:
-<p><a href="https://recmanager-app.onrender.com" target="_blank">RecManager App</a>.</p>
-<p><a href="https://recmanager-site.onrender.com" target="_blank">RecManager Landing-Page</a>.</p>
-https://github.com/ewurapoms/Landing-Page/blob/main/images/screenshot.png
+<p>Checkout the <a href="https://recmanager-app.onrender.com" target="_blank">RecManager App</a>.</p>
+<p>Checkout the <a href="https://recmanager-site.onrender.com" target="_blank">RecManager Landing-Page</a>.</p>
+<p align="center">
+  <img src="https://github.com/ewurapoms/Landing-Page/blob/main/images/screenshot.png" alt="App Screenshot">
+</p>
 
 # Technologies
 HTML5, CSS3 and JavaScript 
